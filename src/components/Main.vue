@@ -11,14 +11,13 @@
     }
 </script>
 
-<style>
+<style scoped>
 .main-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1000px;
     background-color: blue;
 }
 </style>

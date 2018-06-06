@@ -1,29 +1,50 @@
 <template>
     <header>
-        <div class="logo-container">
-            this is logo
+        <div>
+            <div class="logo-container">
+                this is logo
+            </div>
+            <div class="search-bar">
+                this is search bar
+            </div>
         </div>
-        <div class="search-bar">
-            this is search bar
-        </div>
+        <NavMenu />
     </header>
 </template>
 
 <script>
-
+    import NavMenu from "./NavMenu.vue"
     export default {
-
+        components: {
+            NavMenu
+        }
     }
 </script>
 
-<style>
+<style scoped>
 header {
     width: 100%;
-    background-color: aqua;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    height: 50px;
+    height: 100px;
+    position: fixed;
 }
+
+    header > :first-child {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 40%;
+        background-color: aqua;
+    }
+
+    header > :last-child {
+        height: 60%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 </style>

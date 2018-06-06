@@ -1,7 +1,6 @@
 <template>
     <div>
         <Header />
-        <NavMenu />
         <router-view />
     </div>
 </template>
@@ -9,12 +8,10 @@
 <script>
 import {router} from './main.js';
 import Header from './components/Header.vue';
-import NavMenu from './components/NavMenu.vue';
 
 export default {
     components: {
         Header,
-        NavMenu,
     },
   name: 'app',
     beforeUpdate(){
