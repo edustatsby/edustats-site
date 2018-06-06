@@ -18,7 +18,7 @@
     height: 50px;
     background-color: #fd2;
     font-size: 35px;
-    color: #000;
+    color: #000000;
     width: 100%;
     display: flex;
     flex-direction: row;

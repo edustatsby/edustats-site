@@ -1,13 +1,16 @@
 <template>
     <div class="main-container">
-        <h1>Main component</h1>
+        <h1></h1>
+        <Inscription />
     </div>
 </template>
 
 <script>
-
+    import Inscription from "./MainComponents/Inscription.vue"
     export default {
-
+        components: {
+            Inscription
+        }
     }
 </script>
 
@@ -18,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1000px;
-    background-color: blue;
+    height: 750px;
+    background-color: #ffffff;
 }
 </style>
