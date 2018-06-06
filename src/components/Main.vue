@@ -18,6 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 1000px;
     background-color: blue;
 }
 </style>

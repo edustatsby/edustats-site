@@ -15,14 +15,7 @@
 
 <style scoped>
 .nav-container {
-    /*width: 320px;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: space-around;*/
-    /*align-items: center;*/
-    /*margin: auto;*/
-    /*margin-top: 20px;*/
-    height: 44px;
+    height: 50px;
     background-color: #fd2;
     font-size: 35px;
     color: #000;
@@ -33,11 +26,6 @@
 }
 
     .nav-container > * {
-        /*width: 100px;*/
-        /*background-color: bisque;*/
-        /*border: 1px solid black;*/
-        /*text-align: center;*/
-        /*text-decoration: none;*/
         width: 33.3%;
         text-align: center;
     }

@@ -6,12 +6,12 @@
 
 <script>
 
-
     export default {
+
     }
 </script>
 
-<style>
+<style scoped>
 .filter-container {
     width: 100%;
     display: flex;
@@ -19,6 +19,6 @@
     justify-content: center;
     align-items: center;
     height: 1000px;
-    background-color: greenyellow;
+    background-color: #fff0c0;
 }
 </style>

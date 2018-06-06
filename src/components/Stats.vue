@@ -6,13 +6,12 @@
 
 <script>
 
-
     export default {
 
     }
 </script>
 
-<style>
+<style scoped>
 .stats-container {
     width: 100%;
     display: flex;
