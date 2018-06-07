@@ -24,7 +24,7 @@
         justify-content: center;
         align-items: center;
         height: 20%;
-        font-size: 35px;
+        font-size: 45px;
     }
 
     li {
